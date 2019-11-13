@@ -1,0 +1,19 @@
+app.module.ts
+tem os import's do que será utilizado no projeto
+dentro deles tem varários metadados definidos:
+
+metadados 
+declarations: é definido todos os componentes, diretivas e PIeps no módulo
+import: é definido outros módulos que vamos utilizar dentro do módulo
+provider: é definidos serviços que vão ficar disponiveis para todos os componentes do módulo ou toda aplicação (Exe.: Autenticação ou login)
+bootstrap: será somente definido no módulo raiz, qual o componente que deve ser instanciado quando executar a aplicação , neste caso será o componente que servirá de conteiner para aplicação, no exemplo meu-primeiro
+
+para criar um módulo informa ng g module ou m cursos(este ultimo é o nome do módulo)
+ex: c:\cursosthf\meu-primeiro\ ng g m cursos
+
+para criar um componente informa ng g c cursos(este ultimo é o nome do módulo)
+ex: c:\cursosthf\meu-primeiro\ ng g c cursos\cursos-detalhe
+
+
+
+
